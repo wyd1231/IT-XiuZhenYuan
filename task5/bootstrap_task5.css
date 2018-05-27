@@ -1,0 +1,132 @@
+header{
+	background-color: #5fc0cd;
+	height: 2.9rem;
+	width: 100%;
+}
+
+.back{
+	height: 1.3rem;
+	margin: 0.8rem 0 0 1.2rem;
+}
+
+header span{
+	display: inline-block;
+	line-height: 1.3rem;
+	color: white;
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin: 0.8rem 1.2rem 0 0;
+}
+
+.beijing{
+	background-image: url('images/background-image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 11.7rem;
+}
+
+.touxiang{
+	width: 6rem;
+	vertical-align: middle;
+	margin: 2.85rem 1.43rem 0 1.4rem;
+}
+
+.xushilin{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.3rem;
+	color: white;
+	margin-top: 2.85rem;
+}
+
+.address{
+	height: 0.8rem;
+	vertical-align: middle;
+}
+
+.jingcheng{
+	font-size: 1rem;
+}
+
+.lanshu{
+	display: inline-block;
+	background-color: #5fc0cd;
+	width: 0.3rem;
+	height: 1.1rem;
+	vertical-align: middle;
+	margin: 1.3rem 0.3rem 1.3rem 1.2rem;
+}
+
+.zhuanye{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.table{
+	width: auto;
+	font-size: 1.1rem;
+	line-height: 1.1rem;
+	margin-left: 1.6rem;
+	margin-right: 1.6rem;
+}
+
+.star{
+	height: 0.9rem;
+	margin-right: 0.6rem;
+}
+
+.nowrap{
+	white-space: nowrap;
+}
+
+.hui{
+	color: #999999;
+	/*border-right: 1px #e1e5e7 solid;   
+	师兄！！！求救！！！
+	这里可以用border做灰色的小竖线吗，我没找到合适的方法，这是我能想到的最接近的了。。*/
+}
+
+.huishuxian{
+	display: inline-block;
+	width: 1px;
+	background-color: #e1e5e7;
+	height: 0.9rem;
+}
+
+#huishu{
+	vertical-align: middle;
+	padding: 8px 0;
+}
+
+.price{
+	color: #e26163;
+	font-weight: bold;
+}
+
+#ziwo{
+	vertical-align: middle;
+}
+
+footer{
+	background-color: white;
+	width: 100vw;
+	height: 4.2rem;
+	position: fixed;
+	bottom: 0;
+}
+
+.btn{
+	border: 2px solid #5fc0cd;
+	display: inline-block;
+	width: 46%;
+}
+
+.liuyan{
+	color: #5fc0cd;
+	margin-left: 3.4%;
+}
+
+.dianhua{
+	background-color: #5fc0cd;
+	color: white;
+}

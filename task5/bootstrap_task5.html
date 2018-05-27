@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>用Bootstrap重写test5:护工个人主页</title>   
+        <!-- Bootstrap -->
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <!--自己的样式文件 -->
+        <link rel="stylesheet" type="text/css" href="bootstrap_task5.css">
+    </head>
+
+    <body>
+        
+    	<header class="text-center">
+            <img src="images/back.png" class="back pull-left">
+            <span>个人主页</span>
+    	</header>
+
+        <main>
+             <div class="beijing">
+                <img src="images/touxiang.png" class="touxiang">
+                <div class="xushilin">
+                    徐士林 55岁<br>
+                    <img src="images/address.png" class="address">
+                    <span class="jingcheng">京城·四方·报纸林</span>
+                </div>
+            </div>
+
+            <div>
+                <span class="lanshu"></span>
+                <span class="zhuanye">专业技能</span>
+            </div>
+
+            
+                <table class="table">
+                    <tr>
+                        <td class="nowrap"><img class="star" src="images/star.png">住家</td>
+                        <td id="huishu"><span class="huishuxian"></span></td>
+                        <td class="nowrap"><img class="star" src="images/star.png">不含餐</td>
+                    </tr>
+                    <tr>
+                        <td class="nowrap hui">从业年限</td>
+                        <td id="huishu"><span class="huishuxian"></span></td>
+                        <td>1~3年</td>
+                    </tr>
+                    <tr>
+                        <td class="nowrap hui">工作时间</td>
+                        <td id="huishu"><span class="huishuxian"></span></td>
+                        <td>全天</td>
+                    </tr>
+                    <tr>
+                        <td class="nowrap hui">服务价格</td>
+                        <td id="huishu"><span class="huishuxian"></span></td>
+                        <td class="price">25元/小时</td>
+                    </tr>
+                    <tr>
+                        <td class="nowrap hui" id="ziwo">自我介绍</td>
+                        <td id="huishu"><span class="huishuxian"></span></td>
+                        <td class="text-justify"> 可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富。 可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富。 可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富。</td>
+                    </tr>
+                    <tr>
+                        <td> <br></td>
+                        <td id="huishu"> <br></td>
+                        <td> <br></td>
+                    </tr>
+                </table>
+            
+        </main>
+
+        <footer>
+            <button class="liuyan btn btn-default">留言</button>
+            <button class="dianhua btn btn-default">电话联系</button>
+        </footer>
+
+
+        <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+        <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    </body>
+    
+</html>

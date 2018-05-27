@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>test4:登录页</title>
+    <link rel="stylesheet" type="text/css" href="task4.css">
+</head>
+<body>
+    <header>
+        <a href="xxx">
+            <span class="close">关闭</span>
+        </a>
+        <span class="denglu">登录</span>
+        <a href="xxx">
+            <span class="zhuce">注册</span>
+        </a>
+    </header>
+    <main>
+        <form>
+        <div class="box">
+        <input type="number" name="tel" placeholder="请输入手机号" oninput="if(value.length>11)value=value.slice(0,11)" class="tel it">
+        <input type="password" name="pwd" placeholder="请输入密码" class="pwd it">
+        </div>
+        <input type="submit" value="登 录" class="submit">
+        </form>
+        <a href="xxx" class="forget">忘记密码</a>
+    </main>
+</body>
+</html>

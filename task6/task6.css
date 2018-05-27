@@ -1,0 +1,202 @@
+header{
+	position: relative;
+	height: 3.6rem;
+	background-color: #5fc0cd;
+	text-align: center;
+}
+
+.nowrap{
+	white-space: nowrap;
+}
+
+.zhao{
+	display: inline-block;
+	margin-left: 2.8rem;
+}
+
+.nav>li>a{
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	padding:0.5rem 0.9rem; 
+	margin: 0.6rem 0;
+	background-color: #55a8b3;
+	color: white;
+}
+
+.nav>li.active>a{
+	background-color: white;
+	color: #5fc0cd;
+}
+
+.dingwei{
+	float: right;
+	margin: 0.9rem 1rem 0 0;
+	width: 1.8rem;
+	height: 1.8rem;
+	background-image: url(images/sprite.png);
+	background-size: 7.2rem;
+}
+
+.xiala{
+	font-size: 1.3rem;
+	height: 2.9rem;
+	line-height: 1.3rem;
+}
+
+.dropdown{
+	display: inline-block;
+	margin: 1rem 0;
+	width: 30%;
+}
+
+.dropdown>a{
+	color: #afbac0;
+}
+
+.fenge{
+	height: 2.4rem;
+	width: 1px;
+}
+
+.caret{
+	margin-left: 2.1rem;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.dropdown-menu{
+	margin-top: 0.5rem;
+	color: #afbac0;
+	text-align: center;
+	min-width: 100%;
+	line-height: 1.5em;
+}
+
+
+main{
+	position: fixed;
+	width: 100%;
+	top: 6.5rem;
+	bottom: 4.6rem;
+	overflow: scroll; 
+}
+
+.table{
+	font-size: 1.3rem;
+	color: #afbac0;
+	margin-bottom: 0.7rem;
+}
+
+.riqi{
+	display: inline-block;
+	width: 1.4rem;
+	height: 1rem;
+	background-image: url(images/sprite.png);
+	background-size: 7.2rem;
+	background-position: -1.8rem 0;
+	vertical-align: middle;
+}
+
+.erling{
+	padding-left: 1.4rem;
+	color: black;
+}
+
+.didian{
+	display: inline-block;
+	width: 1.4rem;
+	height: 1rem;
+	background-image: url(images/sprite.png);
+	background-size: 7.2rem;
+	background-position: -3.6rem 0;
+	vertical-align: middle;
+}
+
+.price{
+	color: red;
+}
+
+#you{
+	vertical-align: middle;
+	padding-left: 5vw;
+}
+
+#zuo{
+	padding-left: 5vw;
+}
+
+.lanjiantou{
+	display: inline-block;
+	margin-left: 0.7rem;
+	width: 1.8rem;
+	height: 1.4rem;
+	background-image: url(images/sprite.png);
+	background-size: 7.2rem;
+	background-position: -5.4rem 0;
+	vertical-align: middle;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f8fafb;
+	height: 4.6rem;
+	font-size: 1rem;
+	color: #afbac0;
+}
+
+footer>div{
+	display: inline-block;
+}
+
+.fangzi{
+	margin-left: 0.7rem;
+	width: 1.8rem;
+	height: 1.8rem;
+	background-image: url(images/sprite.png);
+	background-size: 7.2rem;
+	background-position: 0 -1.8rem;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.ren{
+	margin-left: 0.7rem;
+	width: 1.68rem;
+	height: 1.8rem;
+	background-image: url(images/sprite.png);
+	background-size: 7.2rem;
+	background-position: -3.6rem -1.8rem;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.circle{
+	background-color: #5fc0cd;
+	width: 4.4rem;
+	height: 4.4rem;
+	border-radius: 50%;
+	vertical-align: top;
+}
+
+.bianji{
+	width: 1.8rem;
+	margin-top: 1.1rem;
+}
+
+.shouye{
+	position: absolute;
+	left: 21%;
+	bottom: 12%;
+	color: #5fc0cd;
+}
+
+.wode{
+	position: absolute;
+	right: 21%;
+	bottom: 12%;
+	color: #999999;
+}

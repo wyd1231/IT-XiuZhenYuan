@@ -1,0 +1,100 @@
+html{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background-color: #eff0f4;
+}
+
+body{
+	margin: 0;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+header{
+	width: 100vw;
+	position: relative;
+	background-color: #5fc0cd;
+	height: 2.8rem;
+	text-align: center;
+}
+
+.close{
+	position: absolute;
+	color: white;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+	left: 0.9rem;
+	top: 0.9rem;
+	letter-spacing: 1px;
+}
+
+.denglu{
+	display: inline-block;
+	color: white;
+	letter-spacing: 3px;
+	font-size: 1rem;
+	line-height: 1rem;
+	margin-top: 0.9rem;
+	letter-spacing: 1px;
+}
+
+.zhuce{
+	position: absolute;
+	color: white;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+	right: 0.9rem;
+	top: 0.9rem;
+}
+
+.it{
+	width: 100%;
+	height: 3.1rem;
+	margin-top: 0.6rem;
+	border-width: 0;
+	font-size: 0.9rem;
+	padding-left: 4.8rem;
+	letter-spacing: 1px;
+}
+
+.box{
+	overflow: hidden;
+}
+
+.tel{
+	background-image: url(images/iphone.png);
+	background-size: 37.5px;
+	background-repeat: no-repeat;
+	background-position: 1.3rem center;
+}
+
+.pwd{
+	background-image: url(images/locked.png);
+	background-size: 37.5px;
+	background-repeat: no-repeat;
+	background-position: 1.3rem center;
+}
+
+.submit{
+	width: 100vw;
+	border-width: 0;
+	background-color: #5fc0cd;
+	margin-top: 0.6rem;
+	height: 3.15rem;
+	font-size: 1.1rem;
+	color: white;
+	-webkit-appearance: none; 
+}
+
+input:focus{
+	outline: none;
+}
+
+.forget{
+	float: right;
+	color: #5fc0cd;
+	font-size: 0.9rem;
+	margin-top: 0.65rem;
+	margin-right: 0.9rem;
+	text-decoration: none;
+}

@@ -1,0 +1,192 @@
+html{
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 16px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 1rem;
+	letter-spacing: 1px;
+}
+
+header{
+	position: relative;
+	height: 2.6rem;
+	width: 100vw;
+	background-color: #5fc0cd;
+	text-align: center;
+}
+
+.back{
+	position: absolute;
+	height: 1.1rem;
+	left: 1.1rem;
+	top: 0.75rem;
+}
+
+.geren{
+	display: inline-block;
+	color: white;
+	font-size: 1.1rem;
+	line-height: 1.1rem;
+	letter-spacing: 1px;
+	margin-top: 0.75rem;
+}
+
+.first{
+	background-image: url('images/background-image.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.jianjie{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.touxiang{
+	width: 5.3rem;
+	vertical-align: middle;
+	margin: 2.5rem 1.25rem 2.5rem 1rem;
+}
+
+.gaosuya{
+	display: inline-block;
+	font-size: 1rem;
+	color: white;
+	margin-bottom: 0.4rem;
+}
+
+.address{color: white;
+	height: 0.9rem;
+	vertical-align: middle;
+}
+
+.beijing{
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	color: white;
+}
+
+hr{
+	margin: 0;
+}
+
+.shu{
+	height: 1.3rem;
+	width: 0.2rem;
+	vertical-align: middle;
+}
+
+.lanshu{
+	height: 0.9rem;
+	width: 0.3rem;
+	vertical-align: middle;
+	margin: 1.1rem 0.2rem 1.1rem 0.9rem;
+}
+
+.zhuanye{
+	vertical-align: middle;
+	margin: 0;
+	font-weight: normal;
+}
+
+.firststar{
+	height: 1rem;
+	margin: 1.1rem 0 1.1rem 1.9rem;
+	vertical-align: middle;
+}
+
+.zhujia{
+	vertical-align: middle;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+}
+
+.secondstar{
+	height: 1rem;
+	margin: 1.1rem 0;
+	vertical-align: middle;
+}
+
+.table{
+	display: table;
+	border-spacing: 1.1rem;
+	margin-left: 0.8rem;
+}
+
+.row{
+	display: table-row;
+}
+
+.cell{
+	display: table-cell;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+	vertical-align: middle;
+}
+
+.tou{
+	color: #999999;
+	white-space:nowrap;
+}
+
+.jiage{
+	color: #e26163;
+	font-weight: bold;
+}
+
+.xiyi{
+	font-size: 0.8rem;
+	line-height: 1.3rem;
+	letter-spacing: 0;
+	text-align: justify;
+}
+
+.zhanwei{
+	height: 3.6rem;
+}
+
+footer{
+	position: fixed;
+	background-color: white;
+	height: 3.6rem;
+	text-align: justify;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.foot{
+	position: relative;
+}
+
+button{
+	position: absolute;
+	border-style: none;
+	height: 2.6rem;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+	padding: 0;
+	width: 47%;
+	-webkit-appearance: none;
+	border-radius: 7px;
+}
+
+.liuyan{
+	top: 0.5rem;
+	left: 2%;
+	border: 1px solid #5fc0cd;
+	background-color: white;
+	color: #5fc0cd;
+}
+
+.dianhua{
+	top: 0.5rem;
+	left: 51%;
+	border-color: #5fc0cd;
+	background-color: #5fc0cd;
+	color: white;
+}
+
