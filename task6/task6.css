@@ -9,23 +9,27 @@ header{
 	white-space: nowrap;
 }
 
-.zhao{
+.nav{
 	display: inline-block;
-	margin-left: 2.8rem;
+	border-radius: 5px;
+	margin-top: 0.5rem;
+	height : 2.6rem;
+	background-color: #55a8b3;
+	margin-left: 2.8rem;   /*深蓝#55a8b3*/
 }
 
-.nav>li>a{
+.nav>a>li{
+	display: inline-block;
 	font-size: 1.4rem;
 	line-height: 1.6rem;
-	padding:0.5rem 0.9rem; 
-	margin: 0.6rem 0;
-	background-color: #55a8b3;
+	padding:0.5rem 0.7rem; 
 	color: white;
 }
 
-.nav>li.active>a{
+.nav>a.active>li{
 	background-color: white;
 	color: #5fc0cd;
+	border-radius: 5px;
 }
 
 .dingwei{
@@ -45,17 +49,26 @@ header{
 
 .dropdown{
 	display: inline-block;
-	margin: 1rem 0;
 	width: 30%;
 }
 
 .dropdown>a{
 	color: #afbac0;
+	display: inline-block;
+	margin: 1rem 0;
+	width: 100%;
 }
 
 .fenge{
-	height: 2.4rem;
+	display: inline-block;
+	height: 2.6rem;
 	width: 1px;
+	vertical-align: middle;
+	margin-top: 0;
+	background: -ms-linear-gradient(top, rgba(153,153,153,0.1)0%,rgba(153,153,153,1)50%,rgba(153,153,153,0.1)100%);        /* IE 10 */
+    background:-moz-linear-gradient(top, rgba(153,153,153,0.1)0%,rgba(153,153,153,1)50%,rgba(153,153,153,0.1)100%);/*火狐*/
+    background: -webkit-linear-gradient(top, rgba(153,153,153,0.1)0%,rgba(153,153,153,1)50%,rgba(153,153,153,0.1)100%);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, rgba(153,153,153,0.1)0%,rgba(153,153,153,1)50%,rgba(153,153,153,0.1)100%);  /*Opera 11.10+*/
 }
 
 .caret{
@@ -89,7 +102,12 @@ main{
 	margin-bottom: 0.7rem;
 }
 
-.riqi{
+td{ 
+  　　overflow: hidden;
+  　　text-overflow: ellipsis;
+}
+
+.date{
 	display: inline-block;
 	width: 1.4rem;
 	height: 1rem;
@@ -120,7 +138,8 @@ main{
 
 #you{
 	vertical-align: middle;
-	padding-left: 5vw;
+	text-align: right;
+	padding-right: 5vw;
 }
 
 #zuo{
@@ -152,7 +171,7 @@ footer>div{
 	display: inline-block;
 }
 
-.fangzi{
+.home{
 	margin-left: 0.7rem;
 	width: 1.8rem;
 	height: 1.8rem;
@@ -175,6 +194,7 @@ footer>div{
 }
 
 .circle{
+	display: inline-block;
 	background-color: #5fc0cd;
 	width: 4.4rem;
 	height: 4.4rem;
